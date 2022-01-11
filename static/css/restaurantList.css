@@ -1,0 +1,44 @@
+.container-all{
+    display:flex;
+    align-items:stretch;
+}
+
+#sidebar{
+    width: 800;
+    height: 100vh;
+    background-color:black;
+    color: azure;
+}
+.container-left{
+    width: 10%;
+    height: 100vh;
+}
+.container-right{
+    background-color: white;
+    width: 90%;
+    height: 100vh;
+    text-align: center;
+    padding: 0px;
+}
+
+#sidebar p{
+    font-size: 30px;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+#sidebar ul li a:hover {
+    color:black;
+    background: #fff;
+}
+
+.fas {
+    padding-right: 40px;
+}
